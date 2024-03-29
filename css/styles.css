@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg-orange {
+    background-color: hsl(12, 88%, 59%);
+}
+
+.bg-black {
+    background-color: hsl(0, 0%, 0%);
+}
+
+
+
+.btn-get-offer {
+    border: 1px solid black;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+.btn-get-offer:hover{
+    color: rgb(29, 29, 29);
+}
+
+.dim {
+    height: 105px;
+    width: 105px;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.border-dark {
+    border: 1px solid white;
+}
+
+
+.margin_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-get-started-orange {
+    color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    width: 120px;
+}
+
+.btn-get-started-orange:hover {
+    color: hsl(12, 88%, 59%);
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.btn-get-started, .btn-go {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(12, 88%, 59%);
+    border: 1px solid hsl(12, 88%, 59%);
+
+}
+
+div a {
+    color: white;
+}
+
+div a:hover{
+    color: rgb(190, 190, 190);
+}
+
+span {
+    color: #0080ff;
+    font-size: 2rem;
+}
+
+.btn-go{
+    width: 60px;
+}
+
+.btn-get-started {
+    width: 120px;
+}
+
+.btn-get-started ,.special, .btn-go, input, card {
+    border-radius: 30px;
+}
+
+.btn-get-started:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(12, 88%, 59%);    opacity: 0.9;
+    box-shadow: 2px 2px 2px orangered;
+}
+
+
+.bg-red {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+}
+
+#content img {
+    align-self: center;
+    
+}
+
+.card-width{
+    min-width: 300px;
+}
+
+#card:hover {
+    scale: 1.1;
+}
+
+
+p, #sponsors {
+    color: rgb(154, 153, 153);
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+#nav-link {
+    color: black;
+} 
+
+#nav-link:hover {
+    color: dimgrey;
+}
+
+#FAQ {
+    background-image: url(bg-simplify-section-desktop.svg);
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.mt-7 {
+    margin-top: 7%;
+}
+
+.ml-7 , .mr-7 {
+    margin-left: 7%;
+}
+
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 992px) {
+    .center , body {
+        text-align: center;
+    }
+
+    #sponsors, #items, .links{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links {
+        justify-content: center;
+        display: flex;
+        
+    }
+  }
+
+
+  
+  @media (max-width: 576px) {
+    .center, body {
+        text-align: center;
+    }
+
+    .btn-get-started-nav {
+        display: none;
+    }
+
+    main > section {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    
+  }
+  
+
+  
